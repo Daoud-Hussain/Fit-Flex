@@ -29,7 +29,13 @@
             background-color: #000;
             color: #fff;
         }
-        
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            }
+
         .form-wrapper {
             max-width: 500px;
             margin: 45px auto;

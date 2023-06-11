@@ -16,7 +16,7 @@
                 <label for="post-content">reason</label>
                 <textarea name="body" class="form-control" id="post-content" rows="6" placeholder="Enter Joining Reason">{{$post->body}}</textarea>
                 </div>
-                <input type="submit" id="button" class="btn " value="Update" >
+                <input type="submit" id="button" style="background: #ad070c; color: white;" class="btn " value="Update" >
             </form> <br>
             @if(session()->has('status'))
                 <h6 class="text-bold">
