@@ -1,6 +1,6 @@
 <x-app-layout>
     <div class="py-12">
-        <h2 class=" text-center mb-3">Registered Users</h2>
+        <h2 class=" text-center mb-4">Registered Users</h2>
         @if(session()->has('status'))
                 <h6 class="text-white text-center mb-2">
                     {{ session('status') }}
@@ -29,7 +29,7 @@
                                 <td >{{$post->body}}</td>
                                 <td>
                                 <a href="{{url('/post/edit', $post->id) }}"><button type="button" class="btn btn-primary">Edit</button></a>
-                                <a href="{{url('/post/delete', $post->id)}} "><button type="button" class="btn btn-danger">Delete</button></a>
+                                <a href="{{url('/post/delete', $post->id)}} "><button type="button" style="background: #ad070c; color: white;" class="btn">Delete</button></a>
                                 </td>
                             </tr>
                            

@@ -32,7 +32,7 @@
         
         .form-wrapper {
             max-width: 500px;
-            margin: 100px auto;
+            margin: 45px auto;
             padding: 40px;
             background-color: #fff;
             border-radius: 5px;
@@ -40,7 +40,7 @@
             color: #000;
         }
         .form-control, .form-wrapper{
-            border: 1px solid #870000;
+            border: 1px solid #ad070c;
         }
     #button{
         background-color: #1565c0;

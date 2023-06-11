@@ -9,7 +9,10 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function show_posts(){
-        $posts = Post::all();
-        return view('home', ['posts'=>$posts]);
+        return view('home');
+    }
+
+    public function show_about(){
+        return view('about');
     }
 }

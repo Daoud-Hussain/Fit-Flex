@@ -1,6 +1,6 @@
 <x-app-layout>
         
-<div class="container body">
+<div class="container">
         <div class="row">
         <div class="col-md-12">
             <div class="form-wrapper " >
@@ -15,7 +15,7 @@
                 <label for="post-content">Reason</label>
                 <textarea name="body" class="form-control" id="post-content" rows="6" placeholder="Enter joining reason"></textarea>
                 </div>
-                <button type="submit" id="button" class="btn " value="Post" >Submit </button>
+                <button type="submit" id="button" style="background: #ad070c; color: white;" class="btn" value="Post" >Submit </button>
             </form> <br>
             @if(session()->has('status'))
                 <h6 class="text-bold">
