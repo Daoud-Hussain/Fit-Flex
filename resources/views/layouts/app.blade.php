@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>Blog Site</title>
+        <title>Fitness Fuse</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -26,9 +26,8 @@
 			margin-top: 25px; /* adjust as needed */
 		}
         .theme {
-            /* background-color: #311b92; */
+            background-color: #000;
             color: #fff;
-            background: linear-gradient(to right, #870000, #190a05); 
         }
         
         .form-wrapper {

@@ -1,6 +1,6 @@
 <x-app-layout>
     <div class="py-12">
-        <h2 class=" text-center mb-3">Dashboard</h2>
+        <h2 class=" text-center mb-3">Registered Users</h2>
         @if(session()->has('status'))
                 <h6 class="text-white text-center mb-2">
                     {{ session('status') }}

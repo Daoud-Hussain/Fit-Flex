@@ -27,7 +27,6 @@ Route::middleware('auth')->group(function () {
     
     Route::get('/', [HomeController::class, 'show_posts'])->name('home');
     
-    //Route for creating post
     Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware(['auth', 'verified'])->name('dashboard');
     Route::get('/post', [PostController::class, 'index'])->name('post_index');
     Route::post('/post', [PostController::class, 'create'])->name('post_create');
