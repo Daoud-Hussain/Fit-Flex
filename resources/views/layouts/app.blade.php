@@ -48,10 +48,29 @@
         .form-control, .form-wrapper{
             border: 1px solid #ad070c;
         }
-    #button{
-        background-color: #1565c0;
-        color: #fff;
-    }
+        #button{
+            background-color: #1565c0;
+            color: #fff;
+        }
+        .marketing {
+            /* margin: 0px; */
+            padding-left: 18%;
+            /* width: 100vw; */
+            height: 50vh;
+            background: white;
+            color: black;
+        }
+
+        .heading {
+            font-size: 3em;
+            margin-bottom: 15px;
+            padding-top: 85px;
+        }
+        .special-btn{
+            font-weight: bold;
+            width: 15%;
+            height: 20%;
+        }
     </style>
 
     <body class="font-sans antialiased">
