@@ -1,5 +1,5 @@
 <x-app-layout>
-        <section id="hero" class="d-flex align-items-center">
+        <section id="hero" class=" d-flex align-items-center">
 
             <div class="container mt-3">
                 <div class="row">
@@ -13,13 +13,94 @@
                     </div>
                 </div>
                 <div class="col-lg-6" >
-                    <img src="assets/img/pic.PNG"  alt="">
+                    <img src="assets/img/pic.PNG"  style="min-width: 105%;" alt="">
                 </div>
                 </div>
             </div>
 
         </section> <br><br> <br><br>
 
-        <section>
+        <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title text-center mb-2">
+          <h2>Trainers</h2>
+          <p>Empower yourself to make the changes you need to make</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mr-4 mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer1-.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">Walter White</h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer2-.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">William Anderson</h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer3-.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">Sarah Jhonson</h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer4-.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">Amanda Jepson</h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer5-.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">Amanda Jepson</h4>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
+                <div class="member">
+                <div class="member-img">
+                    <img src="assets/img/trainer6-.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="member-info">
+                    <h4 class="pt-2">Amanda Jepson</h4>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    </section>
     
 </x-app-layout>
