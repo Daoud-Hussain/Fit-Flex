@@ -33,6 +33,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/', [HomeController::class, 'show_posts'])->name('home');
     Route::get('/about', [HomeController::class, 'show_about'])->name('about');
     Route::get('/contact', [HomeController::class, 'show_contact'])->name('contact');
+    Route::get('/joinnow', [HomeController::class, 'join_now'])->name('joinnow');
     
     Route::get('/post', [PostController::class, 'index'])->name('post_index');
     Route::post('/post', [PostController::class, 'create'])->name('post_create');

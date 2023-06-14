@@ -19,4 +19,8 @@ class HomeController extends Controller
     public function show_contact(){
         return view('contact');
     }
+
+    public function join_now(){
+        return view('joinnow');
+    }
 }
