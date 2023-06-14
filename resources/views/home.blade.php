@@ -38,88 +38,64 @@
             </section> <br><br>
 
         <!-- ======= Trainer Section ======= -->
-    <section id="team" class="team mb-5">
-      <div class="container">
+        <section id="team" class="team mb-5">
+            <div class="container">
 
-        <div class="section-title text-center mb-2">
-          <h2>Trainers</h2>
-          <p>Empower yourself to make the changes you need to make</p>
-        </div>
+                <div class="section-title text-center mb-5">
+                <h2>Popular Classes</h2>
+                <p>Empower yourself to make the changes you need to make</p>
+                </div>
 
-        <div class="row justify-content-center">
+                <div class="row justify-content-center">
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mr-4 mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer1-.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">Walter White</h4>
-                </div>
-                </div>
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/cardio-.jpg" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4 class="pt-2">Cardio</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/airyoga-.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4 class="pt-2">Air Yoga</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/lifting-.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4 class="pt-2">Lifting</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch mb-4">
+                        <div class="member">
+                            <div class="member-img">
+                                <img src="assets/img/pressandback-.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4 class="pt-2">Press and Back</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>  
             </div>
+            </section> 
 
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer2-.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">William Anderson</h4>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer3-.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">Sarah Jhonson</h4>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer4-.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">Amanda Jepson</h4>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mr-4 mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer5-.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">Brad Schoenfeld</h4>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch mb-4">
-                <div class="member">
-                <div class="member-img">
-                    <img src="assets/img/trainer6-.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="member-info">
-                    <h4 class="pt-2">Julian Smith</h4>
-                </div>
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-    </section>
-    
     <div class="text-left marketing">
         <h1 class="heading">ARE YOU READY FOR CHANGES?</h1>
         <a href="/post"><button style="background: #ad070c; color: white;" class="btn special-btn">Make it happen</button></a>

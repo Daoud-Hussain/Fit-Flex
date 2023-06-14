@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TrainerController;
+use App\Http\Controllers\TrainerDashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,7 @@ Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware
 
 
 Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/trainersdashboard', [TrainerDashboardController::class, 'show_trainers'])->middleware(['auth', 'verified'])->name('trainersdashboard');
 
 Route::middleware('auth')->group(function () {
     
@@ -36,6 +39,14 @@ Route::middleware('auth')->group(function () {
     Route::get('/post/edit/{id}', [PostController::class, 'edit'])->name('post_edit');
     Route::put('/post/edit/{id}', [PostController::class, 'update'])->name('post_update');
     Route::get('/post/delete/{id}', [PostController::class, 'destroy'])->name('post_destroy');
+
+
+    Route::get('/trainers', [TrainerController::class, 'index'])->name('trainers_index');
+    Route::post('/trainers', [TrainerController::class, 'create'])->name('trainers_create');
+    Route::get('/trainers/edit/{id}', [TrainerController::class, 'edit'])->name('trainers_edit');
+    Route::put('/trainers/edit/{id}', [TrainerController::class, 'update'])->name('trainers_update');
+    Route::get('/trainers/delete/{id}', [TrainerController::class, 'destroy'])->name('trainers_destroy');
+    
     
 });
 
