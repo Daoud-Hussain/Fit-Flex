@@ -1,3 +1,19 @@
+# Fitness Fuse
+Ignite Your Workout Journey with our cutting-edge gym website. Explore personalized fitness plans, expert training tips, and a vibrant community to help you achieve your health and wellness goals. Unleash your potential and fuse fitness into your lifestyle today!
+
+## Screenshots
+<img src="assets/screenshots/Picture1.png" >
+<img src="assets/screenshots/Picture2.png" >
+<img src="assets/screenshots/Picture3.png" >
+<img src="assets/screenshots/Picture4.png" >
+<img src="assets/screenshots/Picture5.png" >
+<img src="assets/screenshots/Picture6.png" >
+<img src="assets/screenshots/Picture7.png" >
+<img src="assets/screenshots/Picture8.png" >
+<img src="assets/screenshots/Picture9.png" >
+
+## About Laravel
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -7,7 +23,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
