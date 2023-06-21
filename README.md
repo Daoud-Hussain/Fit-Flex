@@ -2,15 +2,16 @@
 Ignite Your Workout Journey with our cutting-edge gym website. Explore personalized fitness plans, expert training tips, and a vibrant community to help you achieve your health and wellness goals. Unleash your potential and fuse fitness into your lifestyle today!
 
 ## Screenshots
-<img src="assets/screenshots/Picture1.png" >
-<img src="assets/screenshots/Picture2.png" >
-<img src="assets/screenshots/Picture3.png" >
-<img src="assets/screenshots/Picture4.png" >
-<img src="assets/screenshots/Picture5.png" >
-<img src="assets/screenshots/Picture6.png" >
-<img src="assets/screenshots/Picture7.png" >
-<img src="assets/screenshots/Picture8.png" >
-<img src="assets/screenshots/Picture9.png" >
+
+<img src="public/assets/screenshots/Picture1.png" >
+<img src="public/assets/screenshots/Picture2.png" >
+<img src="public/assets/screenshots/Picture3.png" >
+<img src="public/assets/screenshots/Picture4.png" >
+<img src="public/assets/screenshots/Picture5.png" >
+<img src="public/assets/screenshots/Picture6.png" >
+<img src="public/assets/screenshots/Picture7.png" >
+<img src="public/assets/screenshots/Picture8.png" >
+<img src="public/assets/screenshots/Picture9.png" >
 
 ## About Laravel
 
