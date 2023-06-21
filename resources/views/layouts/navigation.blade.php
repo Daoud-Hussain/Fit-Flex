@@ -23,6 +23,12 @@
                     </x-nav-link>
                 </div>
 
+                <div class=" hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('joinnow')" :active="request()->routeIs('post_index')">
+                        {{ __('Join Now') }}
+                    </x-nav-link>
+                </div>
+
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Users') }}
@@ -32,12 +38,6 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('trainersdashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Trainers') }}
-                    </x-nav-link>
-                </div>
-
-                <div class=" hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('joinnow')" :active="request()->routeIs('post_index')">
-                        {{ __('Join Now') }}
                     </x-nav-link>
                 </div>
 

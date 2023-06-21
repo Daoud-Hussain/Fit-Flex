@@ -23,7 +23,7 @@
 			margin: 0 auto;
 			margin-left: 5%;
 			margin-right: 5%;
-			margin-top: 25px; /* adjust as needed */
+			margin-top: 25px;
 		}
         .theme {
             background-color: #000;

@@ -21,13 +21,20 @@ class PostController extends Controller
      * Show the form for creating a new resource.
      */
     public function create(Request $request)
-    {
+    {   
+        $request -> validate(
+            [
+            'timings' => 'required', 
+            'body' => 'required'
+            ]
+        );
+
         $user = $request->user();
         $post = new Post;
         $post->timings = $request->timings;
         $post->body  = $request->body;
         $user->post()->save($post);
-        return redirect(route('post_index'))->with('status', 'Record Added Successfully.');
+        return redirect('dashboard')->with('status', 'Record Added Successfully.');
     }
 
     /**

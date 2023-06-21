@@ -1,5 +1,5 @@
 <x-app-layout>
-<div class="container mt-5">
+<div class="container mt-5 text-lg">
     <h1>Contact Us</h1>
     <p> Joining a gym is a decision that can change your life for the better. It's about more than just sculpting your physique; it's about building mental fortitude and developing healthy habits that will serve you for a lifetime. Embrace the challenge, push yourself to new heights, and enjoy the satisfaction of knowing that each day in the gym is another step towards becoming the best version of yourself. So join today, and let the journey begin!</p>
     <br>

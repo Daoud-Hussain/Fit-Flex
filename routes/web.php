@@ -21,8 +21,6 @@ Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware
 */
 
 
-Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/trainersdashboard', [TrainerDashboardController::class, 'show_trainers'])->middleware(['auth', 'verified'])->name('trainersdashboard');
 
 Route::middleware('auth')->group(function () {
     
@@ -34,6 +32,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/about', [HomeController::class, 'show_about'])->name('about');
     Route::get('/contact', [HomeController::class, 'show_contact'])->name('contact');
     Route::get('/joinnow', [HomeController::class, 'join_now'])->name('joinnow');
+    Route::get('/dashboard', [DashboardController::class, 'show_posts'])->middleware(['auth', 'verified'])->name('dashboard');
+    Route::get('/trainersdashboard', [TrainerDashboardController::class, 'show_trainers'])->middleware(['auth', 'verified'])->name('trainersdashboard');
     
     Route::get('/post', [PostController::class, 'index'])->name('post_index');
     Route::post('/post', [PostController::class, 'create'])->name('post_create');

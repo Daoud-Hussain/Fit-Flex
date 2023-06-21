@@ -8,17 +8,36 @@
             <form method="POST">
                 @csrf
                 <div class="form-group">
-                    <label for="trainer-phone">Phone</label>
+                    <label for="phone">Phone</label>
                     <input name="phone" id ="phone" type="text" class="form-control" id="trainer-phone" placeholder="Enter your phone">
                 </div>
+                <span class="text-danger">
+                    @error('phone')
+                        {{$message}}
+                    @enderror
+                </span>
+
                 <div class="form-group">
-                    <label for="trainer-experience">Experience</label>
+                    <label for="experience">Experience</label>
                     <input name="experience" id ="experience" type="text" class="form-control" id="trainers-experience" placeholder="Enter your experience">
                 </div>
+                <span class="text-danger">
+                    @error('experience')
+                        {{$message}}
+                    @enderror
+                </span>
+
                 <div class="form-group">
-                    <label for="trainers-timings">Timings</label>
+                    <label for="timings">Timings</label>
                     <input name="timings" id ="timings" type="text" class="form-control" id="trainers-timings" placeholder="Best Suitable Timings">
                 </div>
+                
+                <span class="text-danger">
+                    @error('timings')
+                        {{$message}}
+                    @enderror
+                </span> <br>
+
                 <button type="submit" id="button" style="background: #ad070c; color: white;" class="btn" value="Post" >Submit </button>
             </form> <br>
             @if(session()->has('status'))

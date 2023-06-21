@@ -21,14 +21,20 @@ class TrainerController extends Controller
      * Show the form for creating a new resource.
      */
     public function create(Request $request)
-    {
+    {   
+        $request -> validate([
+            'timings'=> 'required',
+            'experience' => 'required', 
+            'phone' => 'required'
+        ]);
+
         $user = $request->user();
         $trainers = new trainers;
         $trainers->timings = $request->timings;
         $trainers->experience = $request->experience;
         $trainers->phone = $request->phone;
         $user->trainers()->save($trainers);
-        return redirect(route('trainers_index'))->with('status', 'Trainer Added Successfully.');
+        return redirect(route('trainersdashboard'))->with('status', 'Trainer Added Successfully.');
     }
 
     /**
