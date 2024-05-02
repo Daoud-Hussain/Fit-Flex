@@ -1,4 +1,4 @@
-# Fitness Fuse
+# Fit Flex
 Ignite Your Workout Journey with our cutting-edge gym website. Explore personalized fitness plans, expert training tips, and a vibrant community to help you achieve your health and wellness goals. Unleash your potential and fuse fitness into your lifestyle today!
 
 ## Screenshots
